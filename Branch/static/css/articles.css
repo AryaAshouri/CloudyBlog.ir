@@ -1,0 +1,36 @@
+* {
+    padding:0;
+    margin:0;
+}
+*:focus {
+    outline: none;
+}
+::-webkit-scrollbar {
+  width:0px;
+}
+::-webkit-scrollbar-thumb {
+  background:none;
+  border-radius:none;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity:0.8; 
+}
+Body {
+    background-color:black;
+    overflow-x:hidden;
+}
+#base_of_advan {
+    background-color:rgb(8,8,8);
+    width:360px;
+    height:390px;
+    border-radius:30px;
+    margin:20px auto;
+}
+#base_of_advan:hover {
+    scale:1.04;
+    transition-duration:0.5s;
+}
+#base_of_advan {
+    transition-duration:0.5s;
+}

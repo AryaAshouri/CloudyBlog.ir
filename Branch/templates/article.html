@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE>
+<html>
+	<head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<link rel="stylesheet" href="{% static 'css/article.css' %}">
+		<link rel="icon" href="{% static 'img/Sicon.png' %}">
+		<title>
+			{{Article_Info.sitle}}
+		</title>
+	</head>
+	<Body style="background-color:Black;">
+
+        <script>
+            AOS.init();
+        </script>
+
+		<div data-aos="fade-up" class="container" style="display:flex; justify-content:center;">
+			<div class="row">
+				<center>
+					<p style="color:white; font-family:Aviny; margin-left:20px; margin-top:10px; font-size:50px;">{{Article_Info.title}}</p>
+					<img style="border-radius:35px; border:15px solid rgb(8,8,8); width:845px; margin-top:10px; height:470px; margin-left:10px;" src={{Article_Info.thumbnail.url}}>
+
+					<div style="color:white; background-color:rgb(8,8,8); border-radius:40px; height:1100px; width:830px; margin-top:60px; margin-left:10px; padding-right:30px; padding-top:30px; padding-left:30px; font-size:30px;"></div>
+
+					<div style="color:white; background-color:rgb(10,10,10);border-radius:40px; height:1000px; width:730px; margin-top:-1080px; margin-left:10px; padding-right:30px; padding-top:30px; padding-left:30px; font-size:30px;"></div>
+
+					<div style="color:white; background-color:none; border-radius:40px; height:1200px; width:740px; font-size:30px; margin-top:-995px; font-family:Aviny;font-weight:100;">{{Article_Info.description | linebreaks}}</div>
+
+					{% if Article_Info.update == "true" %}
+						<div style="background-color:rgb(8,8,8); text-align:; width:820px; height:75px; border-radius:40px; margin-left:10px; font-family:Aviny; font-size:32px; color:white; padding-top:-7px; margin-top:-120px; padding-left:70px;">نوشته شده توسط {{Article_Info.author}} در تاریخ &nbsp;{{Article_Info.Date}}</div>
+						<div style="font-family:Aviny; font-size:22px; color:rgb(200,200,200); padding-top:9px; margin-top:-70px; margin-left:-415px;">(ویرایش شده)</div>
+						<div style="height:10px;"></div>
+					{% else %}
+						<div style="background-color:rgb(8,8,8); text-align:; width:890px; height:75px; border-radius:40px; margin-left:10px; font-family:Aviny; font-size:32px; color:white; padding-top:-7px; margin-top:-120px; padding-left:-30px;">نوشته شده توسط {{Article_Info.author}} در تاریخ &nbsp;{{Article_Info.Date}}</div>
+					{% endif %}
+				</center>
+			</div>
+		</div>
+		<div style="height:80px; width:10px; background-color:none;"></div>
+	</Body>
+</html>

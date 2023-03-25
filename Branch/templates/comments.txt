@@ -1,0 +1,5 @@
+					<div style="background-color:rgb(10,10,10); width:890px; height:750px; margin-top:40px; border-radius:40px; margin-left:10px;"></div>
+					<div style="background-color:rgb(13,13,13); width:790px; height:480px; margin-top:-530px; border-radius:40px; margin-left:10px;"></div>
+					<input placeholder="" style="background-color:rgb(13,13,13); border-radius:30px; margin-top:-590px; margin-left:90px; height:60px; width:710px; direction:rtl; border:none; font-family:Vazir; font-size:20px; color:white; padding-right:30px; padding-left:30px;" type="text">
+					<p style="font-family:Aviny; font-size:48px; margin-top:-670px; color:white;">نظرات</p>
+					<input style="background-color:rgb(13,13,13); border-radius:40px; border:none; width:60px; height:60px; font-family:Comic SANS MS; font-size:38px; margin-left:-710px; padding-top: -55px; color:white;" type="submit" value="<">
