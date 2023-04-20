@@ -21,10 +21,10 @@ Body {
     overflow-x:hidden;
 }
 #base_of_desc {
-    background-color:rgb(0,225,255);
+    background-color:rgb(220,220,220);
     border-radius:25px;
     width:260px;
-    height:410px;
+    height:420px;
     margin:20px auto;
 }
 #base_of_desc:hover {
@@ -67,7 +67,7 @@ Body {
     transition-duration:0.3s;
 }
 #base_of_Notif {
-    background-color:rgb(0,225,255);
+    background-color:rgb(210,210,210);
     border-radius:30px;
     width:520px;
     height:320px;
@@ -75,7 +75,7 @@ Body {
     margin-left:20px;
 }
 #base_of_Notif_two {
-    background-color:rgb(0,235,255);
+    background-color:rgb(220,220,220);
     border-radius:30px;
     width:450px;
     height:250px;
