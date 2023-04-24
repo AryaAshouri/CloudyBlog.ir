@@ -31,9 +31,6 @@ Body {
     margin-top:10px;
     transition-duration:0.4s;
 }
-@keyframes mymove {
-  50% {background-position: center;}
-}
 #base_of_desc {
     transition-duration:0.4s;
 }
