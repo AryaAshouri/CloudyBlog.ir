@@ -146,3 +146,15 @@
 .helptext {
     color:rgb(8,8,8);
 }
+@font-face {  
+    font-family: Aviny;
+    src: url('../font/Aviny.ttf');
+}
+@font-face {  
+    font-family: Vazir;
+    src: url('../font/Vazir.ttf');
+}
+@font-face {  
+    font-family: Shabnam;
+    src: url('../font/Shabnam.ttf');
+}
